@@ -1,0 +1,14 @@
+.stockout_p_edit_d{
+    .epc-ok {
+        background-color: white;
+        color:black;
+    }
+    .epc-error {
+        background-color: yellow;
+        color:red;
+    }
+    .epc-notinstock {
+        background-color: red;
+        color:yellow;
+    }
+}

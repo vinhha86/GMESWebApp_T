@@ -1,0 +1,292 @@
+.red{
+    background : red;
+    font-size: 12px;
+    color: white;
+    border-left: 2px solid red;
+    border-radius: 2px;
+    opacity: 0.9;
+   }
+.green{
+    background :green;
+    font-size: 12px;
+    color: white;
+    border-left: 2px solid red;
+    border-radius: 2px;
+    opacity: 0.9;
+   }
+.blue{
+    background :blue;
+    color: white;
+    font-size: 12px;
+    border-left: 2px solid red;
+    border-radius: 2px;
+    opacity: 0.9;
+}
+.lavender{
+    background :lavender;
+    color: black;
+    font-size: 12px;
+    border-left: 2px solid red;
+    border-radius: 2px;
+    opacity: 0.9;
+}
+.thistle{
+    background :thistle;
+    color: black;
+    font-size: 12px;
+    border-left: 2px solid red;
+    border-radius: 2px;
+    opacity: 0.9;
+}
+.plum{
+    background :plum;
+    color: black;
+    font-size: 12px;
+    border-left: 2px solid red;
+    border-radius: 2px;
+    opacity: 0.9;
+}
+.lightsalmon{
+    background :lightsalmon;
+    color: black;
+    font-size: 12px;
+    border-left: 2px solid red;
+    border-radius: 2px;
+    opacity: 0.9;
+}
+.gold{
+    background :gold;
+    color: black;
+    font-size: 12px;
+    border-left: 2px solid red;
+    border-radius: 2px;
+    opacity: 0.9;
+}
+.papayawhip{
+    background :papayawhip;
+    color: black;
+    font-size: 12px;
+    border-left: 2px solid red;
+    border-radius: 2px;
+    opacity: 0.9;
+}
+.palegoldenrod{
+    background :palegoldenrod;
+    color: black;
+    font-size: 12px;
+    border-left: 2px solid red;
+    border-radius: 2px;
+    opacity: 0.9;
+}
+.darkkhaki{
+    background :darkkhaki;
+    color: black;
+    font-size: 12px;
+    border-left: 2px solid red;
+    border-radius: 2px;
+    opacity: 0.9;
+}
+.palegreen{
+    background :palegreen;
+    color: black;
+    font-size: 12px;
+    border-left: 2px solid red;
+    border-radius: 2px;
+    opacity: 0.9;
+}
+.mediumaquamarine{
+    background :mediumaquamarine;
+    color: black;
+    font-size: 12px;
+    border-left: 2px solid red;
+    border-radius: 2px;
+    opacity: 0.9;
+}
+.darkseagreen{
+    background :darkseagreen;
+    color: black;
+    font-size: 12px;
+    border-left: 2px solid red;
+    border-radius: 2px;
+    opacity: 0.9;
+}
+.lightcyan{
+    background :lightcyan;
+    color: black;
+    font-size: 12px;
+    border-left: 2px solid red;
+    border-radius: 2px;
+    opacity: 1;
+}
+.cyan{
+    background :cyan;
+    color: black;
+    font-size: 12px;
+    border-left: 2px solid red;
+    border-radius: 2px;
+    opacity: 0.9;
+}
+.paleturquoise{
+    background :paleturquoise;
+    color: black;
+    font-size: 12px;
+    border-left: 2px solid red;
+    border-radius: 2px;
+    opacity: 0.9;
+}
+.lightblue{
+    background :lightblue;
+    color: black;
+    font-size: 12px;
+    border-left: 2px solid red;
+    border-radius: 2px;
+    opacity: 0.9;
+}
+.navajowhite{
+    background :navajowhite;
+    color: black;
+    font-size: 12px;
+    border-left: 2px solid red;
+    border-radius: 2px;
+    opacity: 0.9;
+}
+.tan{
+    background :tan;
+    color: black;
+    font-size: 12px;
+    border-left: 2px solid red;
+    border-radius: 2px;
+    opacity: 0.9;
+}
+.sandybrown{
+    background :sandybrown;
+    color: black;
+    font-size: 12px;
+    border-left: 2px solid red;
+    border-radius: 2px;
+    opacity: 0.9;
+}
+.ghostwhite{
+    background :ghostwhite;
+    color: black;
+    font-size: 12px;
+    border-left: 2px solid red;
+    border-radius: 2px;
+    opacity: 1;
+}
+.silver{
+    background :silver;
+    color: black;
+    font-size: 12px;
+    border-left: 2px solid red;
+    border-radius: 2px;
+    opacity: 0.9;
+}
+.khaki{
+    background :khaki;
+    color: black;
+    font-size: 12px;
+    border-left: 2px solid red;
+    border-radius: 2px;
+    opacity: 0.9;
+}
+.test {
+    background: gray;
+    color: yellow;
+    font-size: 12px;
+    border-left: 2px solid red;
+    border-radius: 2px;
+    opacity: 0.9;
+}
+.sunday {
+    background: rgb(236, 193, 195);
+    word-wrap: break-word;
+}
+
+.holiday {
+    background: rgb(236, 214, 238);
+    word-wrap: break-word;
+}
+
+.sch-event {
+    transition  : opacity 0.4s, box-shadow 0.4s;
+}
+.highlighting .sch-event {
+    opacity : 0.2;
+}
+
+.highlighting .sch-event.match {
+    opacity    : 1;
+    box-shadow : 0 0 8px red;
+}
+
+.map{
+    // box-shadow : 0 0 8px rgb(63, 140, 212);
+    color: blue;
+}
+
+.free {
+    color: red;
+}
+
+// .sch-event-inner {
+//     overflow: hidden;
+//     height: 100%;
+//     white-space: nowrap;
+//     padding: 3px 1px 3px 3px;
+//     margin-left: 13px;
+//     margin-top: -13px;
+// }
+// .b-sch-event {
+//     align-items: flex-start;
+//     justify-content: center;
+//     font-size: 13px;
+//     border-left: 3px solid rgba(128, 128, 128, 0.5);
+//     border-radius: 2px;
+//     opacity: 0.9;
+//     transition: opacity 0.4s, box-shadow 0.4s;
+//     flex-direction: column;
+//   }
+  
+//   .b-sch-event.b-sch-event-wrap {
+//     flex-direction: column;
+//   }
+  
+//   .b-sch-event:focus, .b-sch-event.b-sch-event-hover {
+//     opacity: 1;
+//     border-left-color: rgba(96, 96, 96, 0.5);
+//   }
+  
+//   .b-sch-event.b-sch-event-startsoutside {
+//     border-left-color: transparent;
+//   }
+  
+//   .b-sch-event-header {
+//     font-size: .7em;
+//   }
+  
+//   .b-sch-event-footer {
+//     font-weight: 400;
+//   }
+  
+//   .b-highlighting .b-sch-event-wrap .b-sch-event {
+//     opacity: 0.2;
+//   }
+  
+//   .b-highlighting .b-sch-event-wrap .b-sch-event.b-match {
+//     opacity: 1;
+//     box-shadow: 0 0 8px red;
+//   }
+  
+//   .b-sch-range {
+//     background: repeating-linear-gradient(-55deg, #ddd, #ddd 12px, #eee 5px, #eee 20px);
+//     opacity: 0.7;
+//   }
+  
+//   .b-theme-dark .b-sch-range {
+//     background: repeating-linear-gradient(-55deg, #222, #222 12px, #333 5px, #333 20px);
+//   }
+  
+//   .b-theme-light .b-sch-range {
+//     background: repeating-linear-gradient(-55deg, #eee, #eee 12px, #f7f7f7 5px, #f7f7f7 20px);
+//   }

@@ -1,0 +1,50 @@
+Ext.define('GSmartApp.store.ContractTypeStore', {
+    extend: 'Ext.data.Store',
+    alias: 'store.ContractTypeStore',
+    fields: [
+		{name: 'id', type: 'int'},
+		{name: 'name',   type: 'string'},
+		{name: 'issystemfix', type:'boolean'}
+	],
+	sorters: {
+        direction: 'ASC',
+        property: 'id'
+    },
+	// data:[
+	// 	{id:1,	name:'CMP'},
+	// 	{id:2,	name:'FOB'},
+	// 	{id:3,	name:'Gia công nội địa'},
+	// 	{id:4,	name:'Thuê gia công'}
+	// ]
+	loadStore:function(){
+		var me=this;
+		this.setProxy({
+			type: 'ajax',
+			actionMethods: {
+				create : 'POST',
+				read   : 'POST',
+				update : 'POST',
+				destroy: 'POST'
+			},
+			url: config.getAppBaseUrl()+'/api/v1/pcontracttype/getall',
+			paramsAsJson:true,
+			noCache: false,
+			headers :{
+				'Accept': "application/json", 
+				'Content-Type':"application/json"
+			 },
+			reader: {
+				type: 'json',
+				rootProperty: 'data'
+			}
+		});
+		this.loadPage(1,{
+			scope: this,
+			callback: function(records, operation, success) {
+				if(!success){
+					//  this.fireEvent('logout');
+				}
+			}
+		});
+	}
+});

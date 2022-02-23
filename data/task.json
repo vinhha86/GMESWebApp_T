@@ -1,0 +1,15 @@
+[
+    { "Id" : 1, "Name" : "Fix IE7 bug", "State" : "NotStarted", "ResourceId" : 1},
+    { "Id" : 2, "Name" : "Sneak-install Chrome Frame", "State" : "NotStarted", "NbrComments" : 1, "ResourceId" : 1},
+    { "Id" : 3, "Name" : "Add Windows Phone support", "State" : "InProgress", "NbrComments" : 1, "ResourceId" : 3},
+    { "Id" : 4, "Name" : "Make App", "State" : "InProgress", "NbrComments" : 1},
+    { "Id" : 5, "Name" : "Find Unicorn", "State" : "Test", "ResourceId" : 2},
+    { "Id" : 6, "Name" : "IE6 support", "State" : "InProgress"},
+    { "Id" : 7, "Name" : "Chrome development", "State" : "Done", "Attachments" : 1},
+    { "Id" : 8, "Name" : "Find holy grail", "State" : "Done"},
+    { "Id" : 9, "Name" : "Dig hole", "State" : "Done"},
+    { "Id" : 10, "Name" : "Eat raisins", "State" : "Acceptance","ResourceId" : 6, "NbrComments" : 3, "Attachments" : 2},
+    { "Id" : 11, "Name" : "Do some cool task", "State" : "Acceptance", "ResourceId" : 7, "NbrComments" : 3, "Attachments" : 2},
+    { "Id" : 12, "Name" : "Eat raisins", "State" : "Acceptance", "NbrComments" : 3, "ResourceId" : 6, "Attachments" : 2},
+    { "Id" : 14, "Name" : "Change floor tiles", "State" : "Done", "NbrComments" : 2, "Attachments" : 2}
+]

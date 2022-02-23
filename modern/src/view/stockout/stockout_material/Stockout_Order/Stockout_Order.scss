@@ -1,0 +1,53 @@
+.Stockout_Order{
+    //
+    .content{
+        //
+        border-bottom: 1px solid lightgray;
+        padding: 3px;
+        margin: 1px 0;
+        font-size: 12px;
+        .content1{
+            //
+            padding-bottom: 5px;
+            .content1-sub1{
+                display: inline-block;
+                width: 25%;
+                height: 100%;
+                vertical-align:top;
+                overflow-wrap: break-word;
+                word-wrap: break-word;
+                hyphens: auto;
+            }
+        }
+        .content2{
+            //
+            padding-bottom: 5px;
+            .content2-sub1{
+                display: inline-block;
+                width: 25%;
+                height: 100%;
+                vertical-align:top;
+                overflow-wrap: break-word;
+                word-wrap: break-word;
+                hyphens: auto;
+            }
+            .content2-sub2{
+                display: inline-block;
+                width: 75%;
+                height: 100%;
+                vertical-align:top;
+                overflow-wrap: break-word;
+                word-wrap: break-word;
+                hyphens: auto;
+            }
+        }
+    }
+
+    border-bottom: 2px solid #33bbf7;
+    padding: 3px;
+    margin: 3px 0;
+
+    .x-selected{
+        background-color: #ffefbc;
+    }
+}

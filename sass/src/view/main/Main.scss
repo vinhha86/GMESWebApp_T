@@ -1,0 +1,123 @@
+.shadow {
+    @include box-shadow(0 1px 2px 0 rgba(0,0,0,0.2));
+}
+
+.nav-tree-badge:after {
+    position: absolute;
+    height: 18px;
+    width: 3.3em;
+    display: inline-block;
+    text-align: center;
+    top: 50%;
+    margin-top: -9px;
+    right: 12px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 18px;
+}
+
+.nav-tree-badge-hot:after {
+    content: "HOT";
+    background-color: #e3495a;
+}
+
+.nav-tree-badge-new:after {
+    content: "NEW";
+    background-color: $color-soft-blue;
+}
+
+.pop-out {
+    @include box-shadow(2px 2px 8px 2px #ccc);
+}
+
+.circular {
+    border-radius: 50%;
+}
+
+// Menu Icons
+.myIcon {
+    width: 44px;
+    height: 64px;
+    background-size: 18px 18px;
+    background-position: center !important;
+    background-repeat: no-repeat;
+    -webkit-filter: invert(90%);
+    filter: invert(90%);
+}
+
+.icon-daisize{
+    background-image: url(icons/icons8-daisize.png);
+}
+.icon-chinhanh{
+    background-image: url(icons/icons8-chinhanh.png);
+}
+.icon-chimay{
+    background-image: url(icons/icons8-chimay.png);
+}
+.icon-cangport{
+    background-image: url(icons/icons8-cangport.png);
+}
+.icon-banthanhpham{
+    background-image: url(icons/icons8-banthanhpham.png);
+}
+.icon-endbuyer{
+    background-image: url(icons/icons8-endbuyer.png);
+}
+.icon-loaihinhdonhang{
+    background-image: url(icons/icons8-loaihinhdonhang.png);
+}
+.icon-ngaynghile{
+    background-image: url(icons/icons8-ngaynghile.png);
+}
+.icon-ngoaite{
+    background-image: url(icons/icons8-ngoaite.png);
+}
+.icon-nguyenlieu{
+    background-image: url(icons/icons8-nguyenlieu.png);
+}
+.icon-phulieu-hoantien{
+    background-image: url(icons/icons8-phulieu-hoantien.png);
+}
+.icon-phulieumay{
+    background-image: url(icons/icons8-phulieumay.png);
+}
+.icon-pricefob{
+    background-image: url(icons/icons8-pricefob.png);
+}
+.icon-sanpham{
+    background-image: url(icons/icons8-sanpham.png);
+}
+.icon-supplier{
+    background-image: url(icons/icons8-supplier.png);
+}
+.icon-thuoctinh{
+    background-image: url(icons/icons8-thuoctinh.png);
+}
+.icon-trusochinh{
+    background-image: url(icons/icons8-trusochinh.png);
+}
+.icon-unit{
+    background-image: url(icons/icons8-unit.png);
+}
+.icon-bactho{
+    background-image: url(icons/icons8-bactho.png);
+}
+.icon-vendor{
+    background-image: url(icons/icons8-supplier.png);
+}
+.icon-provider{
+    background-image: url(icons/icons8-provider.png);
+}
+.icon-thietbi{
+    background-image: url(icons/icons8-thietbi.png);
+}
+.icon-donvitinh{
+    background-image: url(icons/icons8-donvitinh.png);
+}
+.icon-soluong{
+    background-image: url(icons/icons8-soluong.png);
+}
+.icon-khsanxuat{
+    background-image: url(icons/icons8-khsanxuat.png);
+}

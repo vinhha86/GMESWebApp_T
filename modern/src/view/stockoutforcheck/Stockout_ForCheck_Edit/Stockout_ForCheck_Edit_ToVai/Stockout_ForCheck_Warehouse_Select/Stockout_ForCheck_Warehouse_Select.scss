@@ -1,0 +1,82 @@
+.Stockout_ForCheck_Warehouse_Select{
+    border: 1px solid lightblue;
+
+    .x-innerhtml{
+        width: 100%;
+    }
+
+    .content{
+        //
+        // border-bottom: 1px solid lightgray;
+        padding: 3px;
+        margin: 1px 0;
+        font-size: 15px;
+        .content1{
+            //
+            padding-bottom: 5px;
+            display: flex;
+            // justify-content: center;
+            align-items: center;
+            .content1-sub1{
+                display: inline-block;
+                width: 25%;
+                height: 100%;
+                vertical-align:top;
+                overflow-wrap: break-word;
+                word-wrap: break-word;
+                hyphens: auto;
+
+                .button {
+                    background-color: #33bbf7;
+                    border: none;
+                    color: white;
+                    padding: 10px 25px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    font-size: 15px;
+                    float: right;
+                }
+                .button:active {
+                    background-color: #0e9fe4;
+                }
+
+            }
+            .content1-sub2{
+                display: inline-block;
+                width: 50%;
+                height: 100%;
+                vertical-align:top;
+                overflow-wrap: break-word;
+                word-wrap: break-word;
+                hyphens: auto;
+            }
+        }
+        .content2{
+            //
+            padding-bottom: 5px;
+            .content2-sub1{
+                display: inline-block;
+                width: 25%;
+                height: 100%;
+                vertical-align:top;
+                overflow-wrap: break-word;
+                word-wrap: break-word;
+                hyphens: auto;
+            }
+            .content2-sub2{
+                display: inline-block;
+                width: 75%;
+                height: 100%;
+                vertical-align:top;
+                overflow-wrap: break-word;
+                word-wrap: break-word;
+                hyphens: auto;
+            }
+        }
+    }
+
+    .x-selected{
+        background-color: #ffefbc;
+    }
+}

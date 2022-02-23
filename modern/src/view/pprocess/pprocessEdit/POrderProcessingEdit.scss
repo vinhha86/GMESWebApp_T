@@ -1,0 +1,29 @@
+.porderprocessingedit-modern{
+    .x-label{
+        font-weight: 650 !important;
+        text-align: center;
+        // padding-top: 3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        // border: 3px solid green;
+    }
+    .x-label-el{
+        font-weight: 650 !important;
+    }
+    .x-input-el{
+        font: 650 13px/17px 'Open Sans', 'Helvetica Neue', helvetica, arial, sans-serif !important;
+    }
+    // #8a0101 red #008101 green
+    .btnPlus .x-inner-el{
+        font-weight: 650 !important;
+        color: white !important;
+        background-color: #008101 !important;
+    }
+    .btnMinus .x-inner-el{
+        font-weight: 650 !important;
+        color: white !important;
+        background-color: #8a0101 !important;
+    }
+}

@@ -1,0 +1,47 @@
+.porderprocessing-modern{
+    .porderprocessing-modern-grid{
+        .x-gridcolumn-title-wrap-el {
+            margin: auto !important;
+            font-weight: bold;
+        }
+        .x-rowheader{
+            font-weight: bold;
+        }
+        .process-free {
+            background-color: lightblue;
+            color:black;
+        }
+        .process-granted {
+            background-color: white;
+            color:black;
+        }
+        .process-ready {
+            background-color: yellow;
+            color:red;
+        }
+        .process-cutting {
+            background-color: darkorange;
+            color:blue;
+        }
+        .process-subprocess {
+            background-color: blue;
+            color:yellow;
+        }
+        .process-running {
+            background-color: green;
+            color:yellow;
+        }
+        .checkbox-process-running {
+            background-color: green;
+            color:yellow;
+        }
+        .process-done {
+            background-color: lightgray;
+            color:blue;
+        }
+        .process-finish {
+            background-color: rgb(159, 100, 161);
+            color:yellow;
+        }
+    }
+}

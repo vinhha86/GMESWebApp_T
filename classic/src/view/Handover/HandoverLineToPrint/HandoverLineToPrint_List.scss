@@ -1,0 +1,23 @@
+.HandoverLineToPrint_List{
+    .status0{
+        background-color: white;
+    }
+    .status1{
+        background-color: yellow;
+    }
+    .status2{
+        background-color: lightgreen;
+    }
+
+    .color-box{
+        display: flex; 
+        align-items: center;
+        font-size: 12px;
+    }
+    .color-square{
+        display: inline-block; 
+        width: 14px; 
+        height: 14px; 
+        border: 1px solid lightgray;
+    }
+}

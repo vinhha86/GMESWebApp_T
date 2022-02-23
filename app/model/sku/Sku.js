@@ -1,0 +1,33 @@
+Ext.define('GSmartApp.model.Sku', {
+    extend: 'GSmartApp.model.Base',
+    fields: [
+        {name: 'id', type: 'int'},
+        'orgrootid_link',
+        'code',
+        'barcode',
+        'skutypeid_link',
+        'skutype',
+        'name',
+        'name_en',
+        'categoryid_link',
+        'bossid_link',
+        'providerid_link',
+        'fabricid_link',
+        'packingtype',
+        'colorid_link',
+        'color_code',
+        'color_name',
+        'size_name',
+        'sort_size',
+        'unitid_link',
+        'imgurl1',
+        'imgurl2',
+        'imgurl3',
+        'hscode',
+        'hsname',
+        'extrainfo',
+        'skutypename',
+        'producttype_name',
+        'mauSanPham' 
+    ]
+});

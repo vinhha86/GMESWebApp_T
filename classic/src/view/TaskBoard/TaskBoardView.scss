@@ -1,0 +1,502 @@
+.taskeditor .x-panel-body {
+    background-color : #ececec;
+}
+
+.taskeditor .x-form-text {
+    padding-left : 3px;
+}
+
+.taskeditor .x-field * {
+    border : 0;
+}
+
+.taskeditor .namefield input {
+    font-weight : bold;
+    font-size   : 1.25em;
+}
+
+.taskeditor .x-field:not(.comments) .x-form-field,
+.taskeditor .x-field .x-form-trigger {
+    border           : none;
+    background-color : transparent;
+    transition       : background-color 0.4s;
+    border-radius    : 3px;
+}
+
+.taskeditor .x-field-focus .x-form-field,
+.taskeditor .x-field-focus .x-form-trigger {
+    background-color : #fff !important;
+}
+
+.checklist .x-form-cb-checked label {
+    text-decoration : line-through;
+    color           : #888;
+    opacity: 1;
+}
+
+.taskeditor .comment-title,
+.taskeditor .x-form-item-label-text,
+.taskeditor .comment-header h4 {
+    font-weight  : bold;
+    color        : #666;
+}
+
+.taskeditor .comment-title,
+.taskeditor .x-form-item-label-text {
+    padding-left : 3px;
+}
+
+
+.taskeditor .comment-title {
+    margin : 15px 0 5px 0;
+}
+
+.taskeditor .x-tool * {
+    color : #666;
+}
+
+.taskeditor .x-tool:focus * {
+    color : #000;
+}
+
+.taskeditor .cancel-add .x-tool-img {
+    margin    : 3px 0px;
+    font-size : 26px;
+    height    : 25px;
+    width     : 40px;
+}
+
+// /* COMMENT VIEW */
+.commentview {
+    padding : 4px;
+}
+
+.comment-wrap {
+    float         : left;
+    width         : 100%;
+    margin-bottom : 15px;
+}
+
+.comment-wrap img {
+    width         : 22px;
+    border-radius : 3px;
+    margin-left   : 1px;
+}
+
+.comment-wrap h4 {
+    display : inline-block;
+    padding : 0;
+    margin  : 0 0 3px 0;
+}
+
+.comment-wrap p,
+.comment-wrap span {
+    padding-top : 0;
+    margin      : 0 0 0 10px;
+}
+
+.comment-wrap p {
+    background    : rgba(255, 255, 255, 0.7);
+    border-radius : 4px;
+    padding       : 5px;
+    width         : 90%;
+}
+
+.comment-wrap .date {
+    color     : #999;
+    font-size : 90%;
+}
+
+.comment-body img,
+.comment-body p {
+    float : left;
+}
+
+// /* EOF COMMENT VIEW*/
+
+// /* GLOBAL */
+// body.x-body {
+//     background : #444;
+// }
+
+// .x-panel-body-default {
+//     background : transparent;
+// }
+
+.sch-taskboard .x-panel-header-default {
+    background-image : none;
+    // background-color : rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.sch-taskboard .x-title-text {
+    font-size   : 14px;
+    font-weight : 600;
+}
+
+.split .x-title-text {
+    text-align : center;
+}
+
+// /* EOF GLOBAL */
+
+// .sch-taskview {
+//     background : #f6f6f6;
+// }
+
+// /* TOOLBAR */
+
+.maintbar {
+    background : transparent;
+}
+
+.maintbar * {
+    color : #fff;
+}
+
+.maintbar {
+    margin  : 0;
+    padding : 0 4px 0 14px;
+}
+
+.logged-in-user {
+    height      : 50px;
+    padding-top : 6px;
+}
+
+.logged-in-user img {
+    width          : 22px;
+    border-radius  : 3px;
+    vertical-align : middle;
+    margin-left    : 10px;
+    border         : 1px solid #aaa;
+}
+
+// /* EOF TOOLBAR */
+
+// /* TASK STYLES */
+
+.sch-task,
+.sch-task-inner {
+    border  : 0;
+    padding : 0;
+    border-radius : 3px;
+}
+
+.task-header {
+    position   : relative;
+    background : #aaa;
+    color      : #fff;
+    padding    : 7px 8px;
+    overflow   : hidden;
+}
+
+.sch-taskcolumn-state-Done .task-header {
+    background : #13bc7d;
+}
+
+.task-progress {
+    position   : absolute;
+    height     : 100%;
+    top        : 0;
+    left       : 0;
+    background : rgba(255, 255, 255, 0.25);
+
+    /* Yay CSS animations */
+    transition : width 0.3s;
+}
+
+.task-body {
+    border-left: 3px solid red;
+    padding    : 7px 10px 3px;
+    min-height : 33px;
+    overflow   : hidden;
+}
+
+.task-footer {
+    clear : both;
+}
+
+.task-footer span {
+    display : inline-block;
+    margin  : 3px 3px 0px 3px;
+}
+
+.task-footer span {
+    color     : #999;
+    font-size : 11px;
+}
+
+.task-footer span:hover {
+    color : #444;
+}
+
+.sch-task-selected .task-footer span {
+    color : inherit;
+}
+
+.sch-task-selected div, .sch-task-selected span {
+    text-shadow : none;
+    color       : inherit;
+}
+
+.sch-task-menu-handle {
+    display     : block;
+    visibility  : hidden !important;
+    top         : 6px;
+    right       : 10px;
+    background  : 0 none !important;
+    font-family : 'Font Awesome 5 Free';
+    font-weight : 900;
+    font-size   : 16px;
+}
+
+.sch-task-selected .sch-task-menu-handle {
+    color   : #fff;
+    opacity : 1;
+}
+
+.sch-task-selected .sch-task-menu-handle:hover {
+    opacity : 0.7;
+}
+
+.sch-task-menu-handle:before {
+    content : "\f013";
+}
+
+.task-id {
+    font-weight : 600;
+    font-size: 11px;
+}
+
+.task-user {
+    float        : right;
+    margin-right : 20px;
+    font-weight  : 600;
+    font-size: 11px;
+}
+
+.sch-taskview div.sch-task-selected {
+    background-color : transparent;
+}
+
+.sch-taskview div.sch-task-selected .task-header {
+    background-color : #39aefe;
+    color            : #fff;
+}
+
+.sch-task-name {
+    // float       : left;
+    margin      : 0;
+    width       : 90%;
+    font-weight : bold;
+    font-size: 11px;
+}
+
+.task-userimg {
+    float         : right;
+    width         : 10%;
+    border-radius : 3px;
+}
+
+.sch-phantom-task .task-id {
+    text-indent : -1000px;
+}
+
+.task-comments:before {
+    font-weight : bold;
+    position    : relative;
+    top         : -1px;
+}
+
+// /* EOF TASK STYLES */
+
+// /* SUBTASK LIST STYLES */
+
+.subtasks {
+    float   : left;
+    margin  : 10px 0 0 0;
+    padding : 0;
+    font-size: 11px;
+}
+
+.subtasks li {
+    list-style : none;
+}
+
+.subtasks label {
+    display     : block;
+    margin-top  : 2px;
+    // cursor      : pointer;
+    color       : #333;
+    font-weight : 500;
+    font-size: 11px;
+}
+
+ul.subtasks li {
+    transition : opacity 0.4s;
+}
+
+.subtask-done {
+    opacity : 0.5;
+}
+
+.task-header-blue {
+    position   : relative;
+    background : rgb(151, 151, 235);
+    color      : rgb(34, 9, 9);
+    padding    : 7px 8px;
+    overflow   : hidden;
+}
+.task-header-porderreq {
+    position   : relative;
+    background : coral;
+    color      : rgb(34, 9, 9);
+    padding    : 7px 8px;
+    overflow   : hidden;
+}
+.task-header-podetail {
+    position   : relative;
+    background : yellowgreen;
+    color      : rgb(34, 9, 9);
+    padding    : 7px 8px;
+    overflow   : hidden;
+}
+.task-header-bom {
+    position   : relative;
+    background : powderblue;
+    color      : rgb(34, 9, 9);
+    padding    : 7px 8px;
+    overflow   : hidden;
+}
+.task-header-bom2 {
+    position   : relative;
+    background : palegoldenrod;
+    color      : rgb(34, 9, 9);
+    padding    : 7px 8px;
+    overflow   : hidden;
+}
+.task-header-pordercreate {
+    position   : relative;
+    background : violet;
+    color      : rgb(34, 9, 9);
+    padding    : 7px 8px;
+    overflow   : hidden;
+}
+.task-header-granttoline {
+    position   : relative;
+    background : slateblue;
+    color      : rgb(34, 9, 9);
+    padding    : 7px 8px;
+    overflow   : hidden;
+}
+.x-form-item-default.x-item-disabled {
+    opacity: 1
+}
+
+.NotStarted {
+    background: aliceblue;
+}
+
+//News
+.text-wrapper {
+    position: relative;
+    overflow: visible;
+
+    word-wrap: break-word;
+    white-space: pre-wrap;      /* CSS3 */
+    /*white-space: -moz-pre-wrap; /* Firefox */
+    /*white-space: -pre-wrap;     /* Opera <7 */
+    /*white-space: -o-pre-wrap;   /* Opera 7 */
+    /*word-wrap: break-word;      /* IE */
+
+    .news-icon {
+        width: 35px;
+        height: 35px;
+        margin-top: 5px;
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .news-data {
+        background-color: $exec-tile-background;
+        margin: 0 0 8px 5px;
+        padding: 5px;
+        border-radius: 3px;
+
+        -webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.25);
+        -moz-box-shadow:    0px 1px 1px 0px rgba(0, 0, 0, 0.25);
+        box-shadow:         0px 1px 1px 0px rgba(0, 0, 0, 0.25);
+    }
+    .news-title {
+        font-size: $exec-font-size-large-title;
+        line-height: $exec-font-size-large-title;
+        color: $exec-font-dark-color;
+        margin-bottom: 5px;
+    }
+    .news-small {
+        font-size: $exec-font-size-small-content;
+        color: $exec-font-color;
+    
+        img {
+            vertical-align: top;
+            margin: 0 5px 0 10px;
+            height: 12px;
+        }
+    }
+    .news-content {
+        margin-left: 10px;
+    }
+
+    .news-author {
+        text-transform: uppercase;
+    }
+
+    .news-paragraph {
+        background-color: $exec-tile-background;
+        // font-size: $exec-font-size-small-content;
+        min-height: 10px;
+        overflow: hidden;
+        font-weight: $exec-font-regular;
+        margin-top: 5px;
+    }
+
+    .news-picture {
+        width: 35px;
+        height: 35px;
+        background-color: $exec-light-background;
+        float: left;
+        border-radius: 3px;
+        overflow: hidden;
+
+        img {
+            width: 35px;
+        }
+    }
+
+    .news-toggle {
+        text-align: right;
+        margin-top: 5px;
+
+        span {
+            color: $exec-blue-color;
+            font-size: $exec-font-size-small-title;
+            font-weight: $exec-font-semibold;
+            cursor: pointer;
+            width: 100px;
+            display: inline-block;
+            //text-align: left;
+        }
+
+        img {
+            height: 14px;
+            vertical-align: middle;
+            margin: 0 5px 0 5px;
+        }
+    }
+}
+// /* EOF SUBTASK LIST STYLES */

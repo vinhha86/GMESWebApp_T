@@ -1,0 +1,46 @@
+.TongHopBaoAnView_Info{
+    border-bottom: 1px solid lightblue;
+
+    // .x-gridcell-body-el{
+    //     padding: 12px 2px;
+    //     text-overflow: ellipsis;
+    //     overflow: hidden;
+    //     white-space: normal;
+    // }
+
+    .x-gridcolumn-title-wrap-el{
+        padding: 2px 2px;
+        white-space: normal !important;
+        // word-break: break-all;
+        word-break: break-word;
+    }
+    
+    .x-gridcell-body-el {
+        padding: 2px 2px;
+        white-space: normal !important;
+        // word-break: break-all;
+        word-break: break-word;
+    }
+
+    .x-gridcell-summary {
+        font-weight: 1000;
+        color: darkred;
+    }
+
+    .cellWhite{
+        background-color: white;
+        color: black;
+    }
+    .cellYellow{
+        background-color: yellow;
+        color: red;
+    }
+    .cellGreen{
+        background-color: green;
+        color: yellow;
+    }
+    .cellRed{
+        background-color: red;
+        color: yellow;
+    }
+}

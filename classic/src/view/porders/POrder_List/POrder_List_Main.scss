@@ -1,0 +1,72 @@
+#porderlistmain{
+    .process-free {
+        background-color: #FFFF00;
+        color:black;
+    }
+    .process-granted {
+        background-color: #B3E283;
+        color:black;
+    }
+    .process-ready {
+        background-color: yellow;
+        color:red;
+    }
+    .process-cutting {
+        background-color: darkorange;
+        color:blue;
+    }
+    .process-subprocess {
+        background-color: blue;
+        color:yellow;
+    }
+    .process-running {
+        background-color: #66DE93;
+        color:yellow;
+    }
+    .process-done {
+        background-color: lightgray;
+        color:blue;
+    }
+    .process-finish {
+        background-color: #064420;
+        color:yellow;
+    }
+
+    .process-slow-ship-small {
+        background-color: #FF616D;
+        color:yellow;
+    }
+    .process-slow-ship-medium {
+        background-color: #D83A56;
+        color:yellow;
+    }
+    .process-slow-ship-big {
+        background-color: #DA0037;
+        color:yellow;
+    }
+
+    .titleRed {
+        color: #095f93;
+        font-weight:bold
+    }
+
+    //
+    .color-box{
+        display: flex; 
+        align-items: center;
+        font-size: 12px;
+    }
+    .color-square{
+        display: inline-block; 
+        width: 14px; 
+        height: 14px; 
+        border: 1px solid lightgray;
+    }
+    // .x-grid-cell-inner {
+    //     white-space: nowrap;
+    //     font-size: 11px;
+    // }
+    .botToolbar{
+        padding: 0 0 0 0;
+    }
+}

@@ -1,0 +1,28 @@
+.tvsorgitem-frame-ready {
+    background-color: lightskyblue;
+    border: 2px dotted blue;
+}
+.tvsorgitem-frame-running {
+    background-color: green;
+    color:yellow;
+    border: 1px dotted blue;
+    //table-layout: auto;
+}
+.tvsorgItem {
+	float: left;
+	width: 300px;
+	height: 220px;
+    padding: 8px;
+    //margin: 8px 0px 0px 0px;	
+}
+.tvsorgtitem-title { 
+    font-weight: bold;
+    color: darkred;
+    font-size: 25px;
+}
+.tvsorgitem-body { 
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+    color:darkblue;
+}

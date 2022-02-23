@@ -1,0 +1,109 @@
+.Stockin_M_Edit_Lot{
+    border-bottom: 1px solid lightblue;
+
+    .x-innerhtml{
+        width: 100%;
+    }
+    .x-listitem-inner-el{
+        padding: 2px 5px;
+    }
+    // .x-gridcell-body-el{
+    //     padding: 12px 2px;
+    //     text-overflow: ellipsis;
+    //     overflow: hidden;
+    //     white-space: normal;
+    // }
+
+    .x-gridcell-body-el {
+        padding: 12px 2px;
+        white-space: normal !important;
+        // word-break: break-all;
+        word-break: break-word;
+    }
+
+    .content{
+        //
+        // border-bottom: 1px solid lightgray;
+        // padding: 2px;
+        margin: 1px 0;
+        font-size: 15px;
+        .content1{
+            //
+            padding-bottom: 2px;
+            display: flex;
+            // justify-content: center;
+            align-items: center;
+            .content1-sub1{
+                display: inline-block;
+                width: 30%;
+                height: 100%;
+                vertical-align:top;
+                overflow-wrap: break-word;
+                word-wrap: break-word;
+                hyphens: auto;
+            }
+            .content1-sub2{
+                display: inline-block;
+                width: 20%;
+                height: 100%;
+                vertical-align:top;
+                overflow-wrap: break-word;
+                word-wrap: break-word;
+                hyphens: auto;
+            }
+            .content1-sub3{
+                display: inline-block;
+                width: 50%;
+                height: 100%;
+                vertical-align:top;
+                overflow-wrap: break-word;
+                word-wrap: break-word;
+                hyphens: auto;
+            }
+        }
+        .content2{
+            //
+            padding-bottom: 5px;
+            .content2-sub1{
+                display: inline-block;
+                width: 25%;
+                height: 100%;
+                vertical-align:top;
+                overflow-wrap: break-word;
+                word-wrap: break-word;
+                hyphens: auto;
+            }
+            .content2-sub2{
+                display: inline-block;
+                width: 75%;
+                height: 100%;
+                vertical-align:top;
+                overflow-wrap: break-word;
+                word-wrap: break-word;
+                hyphens: auto;
+            }
+        }
+    }
+
+    .cellWhite{
+        background-color: white;
+        color: black;
+    }
+    .cellYellow{
+        background-color: yellow;
+        color: red;
+    }
+    .cellGreen{
+        background-color: green;
+        color: yellow;
+    }
+    .cellRed{
+        background-color: red;
+        color: yellow;
+    }
+
+    // .x-selected{
+    //     box-sizing: border-box;
+    //     border: 2px solid #33bbf7 !important;
+    // }
+}

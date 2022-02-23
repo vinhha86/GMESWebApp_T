@@ -1,0 +1,14 @@
+.Stockout_Pklist_Print_View{
+    .redField{
+        .x-grid-cell-inner {
+            // background-color: rgb(255, 180, 180);
+            color: red;
+        }
+    }
+    .whiteField{
+        .x-grid-cell-inner {
+            // background-color: rgb(255, 255, 255);
+            color: black;
+        }
+    }
+}

@@ -1,0 +1,14 @@
+.Stock{
+    // label field
+    .lblField{
+        .x-label-text-el{
+            white-space: normal;
+            overflow: auto;
+            text-overflow: initial;
+        }
+        .x-label-el{
+            padding: 0;
+            margin: auto;
+        }
+    }
+}

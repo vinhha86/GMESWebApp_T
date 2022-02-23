@@ -1,0 +1,70 @@
+// #Stockin_M_List{
+//     .status0{
+//         background-color: white;
+//     }
+//     .status1{
+//         background-color: yellow;
+//     }
+//     .status2{
+//         background-color: lightgreen;
+//     }
+
+//     // .color-box{
+//     //     display: flex; 
+//     //     align-items: center;
+//     //     font-size: 12px;
+//     // }
+//     // .color-square{
+//     //     display: inline-block; 
+//     //     width: 14px; 
+//     //     height: 14px; 
+//     //     // border: 1px solid lightgray;
+//     // }
+//     border: 1px solid lightblue;
+// }
+
+#Stockin_M_List{
+    //
+    .content{
+        //
+        border-bottom: 1px solid lightgray;
+        padding: 3px;
+        margin: 1px 0;
+        font-size: 12px;
+        .content1{
+            //
+            padding-bottom: 5px;
+            .content1-sub1{
+                display: inline-block;
+                width: 25%;
+                height: 100%;
+                vertical-align:top;
+                overflow-wrap: break-word;
+                word-wrap: break-word;
+                hyphens: auto;
+            }
+        }
+        .content2{
+            //
+            padding-bottom: 5px;
+            .content2-sub1{
+                display: inline-block;
+                width: 25%;
+                height: 100%;
+                vertical-align:top;
+                overflow-wrap: break-word;
+                word-wrap: break-word;
+                hyphens: auto;
+            }
+            .content2-sub2{
+                display: inline-block;
+                width: 75%;
+                height: 100%;
+                vertical-align:top;
+                overflow-wrap: break-word;
+                word-wrap: break-word;
+                hyphens: auto;
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+#handover_line_toprint_edit{
+    // #f0ffff
+    .notEditable{
+        .x-input-el{
+            background-color: azure;
+        }
+        .x-trigger{
+            background-color: azure;
+        }
+    }
+
+    // .x-input-el{
+    //     padding: 5px 5px;
+    //     font-size: 13px;
+    // }
+    .x-header-el{
+        font-size: 13px;
+    }
+    .x-gridcell{
+        font-size: 13px;
+    }
+    .x-label-el{
+        font-size: 13px;
+    }
+    .x-itemheader{
+        font-size: 13px;
+    }
+    .x-gridcell-body-el {
+        padding: 12px 5px;
+    }
+}

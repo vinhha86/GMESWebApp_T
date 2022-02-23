@@ -1,0 +1,140 @@
+.POrderProcessing{
+    .process-free {
+        background-color: #FFFF00;
+        color:black;
+    }
+    .process-granted {
+        background-color: #B3E283;
+        color:black;
+    }
+    .process-ready {
+        background-color: yellow;
+        color:red;
+    }
+    .process-cutting {
+        background-color: darkorange;
+        color:blue;
+    }
+    .process-subprocess {
+        background-color: blue;
+        color:yellow;
+    }
+    .process-running {
+        background-color: #66DE93;
+        color:yellow;
+    }
+    .checkbox-process-running {
+        background-color: #66DE93;
+        color:yellow;
+    }
+    .process-done {
+        background-color: lightgray;
+        color:blue;
+    }
+    .process-finish {
+        background-color: #064420;
+        color:yellow;
+    }
+    
+    .process-slow-ship-small {
+        background-color: #FF616D;
+        color:yellow;
+    }
+    .process-slow-ship-medium {
+        background-color: #D83A56;
+        color:yellow;
+    }
+    .process-slow-ship-big {
+        background-color: #DA0037;
+        color:yellow;
+    }
+    
+    .process-editablecolumn {
+        background-color: lightskyblue;
+        color:black;
+    }
+    .greenIcon {
+        color: green;
+    }
+    .redIcon {
+        color: red;
+    }
+    .orangeIcon {
+        color: orangered;
+    }
+    .violetIcon {
+        color: blueviolet;
+    }
+    .blueIcon {
+        color: blue;
+    }
+    .greyIcon {
+        color: grey;
+    }
+    .brownIcon {
+        color: brown;
+    }
+    .yellowIcon {
+        color: yellow;
+    }
+    
+    // .x-action-col-cell img.in
+    // {
+    //     background-image: url(../images/logo_ivy.png);
+    // }
+    
+    // .x-action-col-cell img.none
+    // {
+    //     background-image: url(../images/profile-icon.png);
+    // }
+    // .x-grid-cell-inner {
+    //     white-space: normal;
+    //     font-size: 11px;
+    // }
+    
+}
+
+.x-action-col-glyph {
+    color: green;
+    font-size: 16px;
+    line-height: 16px;
+    width: 20px;
+}
+.x-form-checkbox-glyph {
+    color: green;
+}
+
+.x-column-header-inner .x-column-header-text {
+    white-space: normal;
+    font-size: 11px;
+    font-weight: bold
+}
+ 
+.x-column-header-inner {
+    line-height: normal;
+    white-space: normal;
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+    text-align: center;
+}
+
+.x-action-col-cell img
+    {
+      width: 32px;
+      height: 32px;
+      margin-top: 3px;
+      margin-right: 3px;
+      cursor: pointer;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    .x-grid-cell-inner {
+        white-space: nowrap;
+        font-size: 11px;
+    }
+    .boldlabel .x-form-cb-label {font-weight: bold;font-size: 14px;}
+    .inputBoxNarror {
+        height: 20px;
+        font-size: 11px;
+    }

@@ -1,0 +1,46 @@
+#PContract_POrder_Porders{
+    .process-free {
+        background-color: lightblue;
+        color:black;
+    }
+    .process-granted {
+        background-color: white;
+        color:black;
+    }
+    .process-ready {
+        background-color: yellow;
+        color:red;
+    }
+    .process-cutting {
+        background-color: darkorange;
+        color:blue;
+    }
+    .process-subprocess {
+        background-color: blue;
+        color:yellow;
+    }
+    .process-running {
+        background-color: green;
+        color:yellow;
+    }
+    .process-done {
+        background-color: lightgray;
+        color:blue;
+    }
+    .process-finish {
+        background-color: rgb(159, 100, 161);
+        color:yellow;
+    }
+
+    .color-box{
+        display: flex; 
+        align-items: center;
+        font-size: 12px;
+    }
+    .color-square{
+        display: inline-block; 
+        width: 14px; 
+        height: 14px; 
+        border: 1px solid lightgray;
+    }
+}

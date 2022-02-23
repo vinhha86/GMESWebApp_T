@@ -1,0 +1,26 @@
+{"node":"root",
+"children":[{
+    "id": "dashboard",
+    "text": "Dashboard",
+    "rowCls": "nav-tree-badge nav-tree-badge-new"
+    "iconCls": "desktop",
+    "routeId": "dashboard",
+    "leaf": true,
+    "action": null,
+    "viewType": "admindashboard",
+    "type": null,
+    "index": 1
+},
+{
+    "id": "email",
+    "text": "Email",
+    "rowCls": "nav-tree-badge nav-tree-badge-new"
+    "iconCls": "send",
+    "routeId": null,
+    "leaf": true,
+    "action": null,
+    "viewType": "email",
+    "type": null,
+    "index": 2
+}
+]}

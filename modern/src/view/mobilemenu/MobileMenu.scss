@@ -1,0 +1,259 @@
+.MobileMenu{
+    // css here
+    .x-root {
+        color : white !important;
+    }
+    .x-fa {
+        color : white !important;
+    }
+    .x-dataview-item{
+        box-sizing: border-box;
+        width: 49%;
+        display: inline-block;
+
+        .content{
+            height: 100px;
+            background-color: #2496f4;
+            margin: 5px;
+            padding: 5px;
+            // border: 1px solid grey;
+            border-radius: 5px;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+
+            .contentImg{
+                position: relative;
+                width: 100px;
+                height: 40px;
+                display: inline-block;
+                // border: 1px solid grey;
+
+                // text fa
+                font-size: 40px;
+                text-align: center;
+                vertical-align: bottom;
+
+                // img
+            }
+            .contentText{
+                width: 120px;
+                // height: 60px;
+                // height: 100%;
+                padding: 5px;
+                font-size: 14px;
+                font-weight: bold;
+                display: inline-block;
+                // border: 1px solid grey;
+                color: white;
+
+                vertical-align: bottom;
+                text-align: center;
+            }
+        }
+    }
+
+    // Menu Icons
+
+    .icon-daisize{
+        background-image: url(icons/icons8-daisize.png);
+        background-size: 40px 40px;
+        background-position: center !important;
+        background-repeat: no-repeat;
+        -webkit-filter: invert(100%);
+        filter: invert(100%);
+    }
+    .icon-chinhanh{
+        background-image: url(icons/icons8-chinhanh.png);
+        background-size: 40px 40px;
+        background-position: center !important;
+        background-repeat: no-repeat;
+        -webkit-filter: invert(100%);
+        filter: invert(100%);
+    }
+    .icon-chimay{
+        background-image: url(icons/icons8-chimay.png);
+        background-size: 40px 40px;
+        background-position: center !important;
+        background-repeat: no-repeat;
+        -webkit-filter: invert(100%);
+        filter: invert(100%);
+    }
+    .icon-cangport{
+        background-image: url(icons/icons8-cangport.png);
+        background-size: 40px 40px;
+        background-position: center !important;
+        background-repeat: no-repeat;
+        -webkit-filter: invert(100%);
+        filter: invert(100%);
+    }
+    .icon-banthanhpham{
+        background-image: url(icons/icons8-banthanhpham.png);
+        background-size: 40px 40px;
+        background-position: center !important;
+        background-repeat: no-repeat;
+        -webkit-filter: invert(100%);
+        filter: invert(100%);
+    }
+    .icon-endbuyer{
+        background-image: url(icons/icons8-endbuyer.png);
+        background-size: 40px 40px;
+        background-position: center !important;
+        background-repeat: no-repeat;
+        -webkit-filter: invert(100%);
+        filter: invert(100%);
+    }
+    .icon-loaihinhdonhang{
+        background-image: url(icons/icons8-loaihinhdonhang.png);
+        background-size: 40px 40px;
+        background-position: center !important;
+        background-repeat: no-repeat;
+        -webkit-filter: invert(100%);
+        filter: invert(100%);
+    }
+    .icon-ngaynghile{
+        background-image: url(icons/icons8-ngaynghile.png);
+        background-size: 40px 40px;
+        background-position: center !important;
+        background-repeat: no-repeat;
+        -webkit-filter: invert(100%);
+        filter: invert(100%);
+    }
+    .icon-ngoaite{
+        background-image: url(icons/icons8-ngoaite.png);
+        background-size: 40px 40px;
+        background-position: center !important;
+        background-repeat: no-repeat;
+        -webkit-filter: invert(100%);
+        filter: invert(100%);
+    }
+    .icon-nguyenlieu{
+        background-image: url(icons/icons8-nguyenlieu.png);
+        background-size: 40px 40px;
+        background-position: center !important;
+        background-repeat: no-repeat;
+        -webkit-filter: invert(100%);
+        filter: invert(100%);
+    }
+    .icon-phulieu-hoantien{
+        background-image: url(icons/icons8-phulieu-hoantien.png);
+        background-size: 40px 40px;
+        background-position: center !important;
+        background-repeat: no-repeat;
+        -webkit-filter: invert(100%);
+        filter: invert(100%);
+    }
+    .icon-phulieumay{
+        background-image: url(icons/icons8-phulieumay.png);
+        background-size: 40px 40px;
+        background-position: center !important;
+        background-repeat: no-repeat;
+        -webkit-filter: invert(100%);
+        filter: invert(100%);
+    }
+    .icon-pricefob{
+        background-image: url(icons/icons8-pricefob.png);
+        background-size: 40px 40px;
+        background-position: center !important;
+        background-repeat: no-repeat;
+        -webkit-filter: invert(100%);
+        filter: invert(100%);
+    }
+    .icon-sanpham{
+        background-image: url(icons/icons8-sanpham.png);
+        background-size: 40px 40px;
+        background-position: center !important;
+        background-repeat: no-repeat;
+        -webkit-filter: invert(100%);
+        filter: invert(100%);
+    }
+    .icon-supplier{
+        background-image: url(icons/icons8-supplier.png);
+        background-size: 40px 40px;
+        background-position: center !important;
+        background-repeat: no-repeat;
+        -webkit-filter: invert(100%);
+        filter: invert(100%);
+    }
+    .icon-thuoctinh{
+        background-image: url(icons/icons8-thuoctinh.png);
+        background-size: 40px 40px;
+        background-position: center !important;
+        background-repeat: no-repeat;
+        -webkit-filter: invert(100%);
+        filter: invert(100%);
+    }
+    .icon-trusochinh{
+        background-image: url(icons/icons8-trusochinh.png);
+        background-size: 40px 40px;
+        background-position: center !important;
+        background-repeat: no-repeat;
+        -webkit-filter: invert(100%);
+        filter: invert(100%);
+    }
+    .icon-unit{
+        background-image: url(icons/icons8-unit.png);
+        background-size: 40px 40px;
+        background-position: center !important;
+        background-repeat: no-repeat;
+        -webkit-filter: invert(100%);
+        filter: invert(100%);
+    }
+    .icon-bactho{
+        background-image: url(icons/icons8-bactho.png);
+        background-size: 40px 40px;
+        background-position: center !important;
+        background-repeat: no-repeat;
+        -webkit-filter: invert(100%);
+        filter: invert(100%);
+    }
+    .icon-vendor{
+        background-image: url(icons/icons8-supplier.png);
+        background-size: 40px 40px;
+        background-position: center !important;
+        background-repeat: no-repeat;
+        -webkit-filter: invert(100%);
+        filter: invert(100%);
+    }
+    .icon-provider{
+        background-image: url(icons/icons8-provider.png);
+        background-size: 40px 40px;
+        background-position: center !important;
+        background-repeat: no-repeat;
+        -webkit-filter: invert(100%);
+        filter: invert(100%);
+    }
+    .icon-thietbi{
+        background-image: url(icons/icons8-thietbi.png);
+        background-size: 40px 40px;
+        background-position: center !important;
+        background-repeat: no-repeat;
+        -webkit-filter: invert(100%);
+        filter: invert(100%);
+    }
+    .icon-donvitinh{
+        background-image: url(icons/icons8-donvitinh.png);
+        background-size: 40px 40px;
+        background-position: center !important;
+        background-repeat: no-repeat;
+        -webkit-filter: invert(100%);
+        filter: invert(100%);
+    }
+    .icon-soluong{
+        background-image: url(icons/icons8-soluong.png);
+        background-size: 40px 40px;
+        background-position: center !important;
+        background-repeat: no-repeat;
+        -webkit-filter: invert(100%);
+        filter: invert(100%);
+    }
+    .icon-khsanxuat{
+        background-image: url(icons/icons8-khsanxuat.png);
+        background-size: 40px 40px;
+        background-position: center !important;
+        background-repeat: no-repeat;
+        -webkit-filter: invert(100%);
+        filter: invert(100%);
+    }
+
+}

@@ -1,0 +1,43 @@
+.po_accept {
+    background :rgb(200, 238, 200);
+}
+.po_cancel {
+    background: red;
+}
+.po_free {
+    background: white;
+}
+.po_wrongamount {
+    background: yellow;
+}
+.po_offer {
+    background: rgb(136, 173, 216);
+}
+.po_uncomfim{
+    background: #bab8bd;
+}
+.po_linekh{
+    background: #FAF1E6;
+}
+.color-box{
+    display: flex; 
+    align-items: center;
+    font-size: 12px;
+}
+.color-square{
+    display: inline-block; 
+    width: 14px; 
+    height: 14px; 
+    border: 1px solid lightgray;
+}
+// .x-grid-cell-inner {
+//     white-space: nowrap;
+//     font-size: 11px;
+// }
+.botToolbar{
+    padding: 0 0 0 0;
+}
+
+.x-grid-rowbody {
+    padding: 0 0 0 0;
+}

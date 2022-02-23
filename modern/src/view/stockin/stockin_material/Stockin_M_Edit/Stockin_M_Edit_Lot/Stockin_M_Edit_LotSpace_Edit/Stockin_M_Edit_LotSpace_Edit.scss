@@ -1,0 +1,43 @@
+.Stockin_M_Edit_LotSpace_Edit{
+
+    .notEditable{
+        .x-input-el{
+            background-color: azure;
+        }
+        .x-trigger{
+            background-color: azure;
+        }
+    }
+
+    .x-toolbar-footer{
+        background-color: #fff !important;
+    }
+    // .x-input-el{
+    //     padding: 5px 5px;
+    //     font-size: 13px;
+    // }
+    .x-header-el{
+        font-size: 13px;
+    }
+    .x-gridcell{
+        font-size: 13px;
+    }
+    .x-label-el{
+        font-size: 13px !important;
+    }
+    .x-itemheader{
+        font-size: 13px;
+    }
+    .x-gridcell-body-el {
+        padding: 12px 5px;
+    }
+    .x-headercontainer {
+        // display: none;
+        height: 0;
+        border: 0;
+    }
+    .x-layout-auto-item{
+        margin-top: 1px !important; 
+        padding-bottom: 1px !important;
+    }
+}

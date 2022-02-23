@@ -1,0 +1,28 @@
+Ext.define('GSmartApp.model.stockin.StockinLot', {
+    extend: 'GSmartApp.model.Base',
+    idProperty: 'idx',
+    fields: [
+        // id, orgrootid_link, stockinid_link, materialid_link, lot_number, 
+        // totalpackage, space, totalpackagecheck, totalyds, totalmet, status, 
+        // totalydscheck, totalmetcheck, grossweight, grossweight_check, 
+        // totalpackagepklist, stockindid_link
+        {name: 'id'},
+        {name: 'idx'},
+        'orgrootid_link',
+        'stockinid_link',
+        'stockindid_link',
+        'materialid_link',
+        'lot_number',
+        'totalpackage',
+        'totalpackagecheck',
+        'space',
+        'totalyds',
+        'totalmet',
+        'totalydscheck',
+        'totalmetcheck',
+        'grossweight',
+        'grossweight_check',
+        'status',
+        'totalpackagepklist',
+    ],
+});

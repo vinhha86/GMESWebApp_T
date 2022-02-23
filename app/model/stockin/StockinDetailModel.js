@@ -1,0 +1,33 @@
+Ext.define('GSmartApp.model.stockin.StockinDetailModel', {
+    extend: 'Ext.data.Model',
+    idProperty: 'idx',
+	fields: [
+		 {name: 'idx', type: 'number'},
+		 {name: 'id', type: 'number'},
+		 {name: 'skuid_link', type: 'number'},
+         {name: 'skuname', type: 'string'},
+         {name: 'skucode',  type: 'string'},
+         {name: 'colorid_link',   type: 'number'},
+		 {name: 'colorname',   type: 'string'},
+	     {name: 'unitname',type:'string'},
+		 {name: 'unitid_link',type:'number'},
+		 {name: 'totalpackage',  type: 'number'},
+		 {name: 'totalyds',  type: 'number'},
+		 {name: 'ydsorigin',  type: 'number'},
+		 {name: 'foc',  type: 'number'},
+		 {name: 'yds',  type: 'number'},
+		 {name: 'totalpackagecheck',  type: 'number'},
+		 {name: 'totalydscheck',  type: 'number'},
+		 {name: 'tid', type: 'string'},
+	     {name: 'packinglist'},
+		  {name: 'rssi',  type: 'number'},
+		  {name: 'orgrootid_link', type: 'number'},
+		  {name: 'stockinid_link', type: 'number'},
+		  {name: 'unitprice', type: 'number'},
+		  {name: 'p_skuid_link', type: 'number'},
+		  {name: 'usercreateid_link', type: 'int'},
+		  {name: 'timecreate', type: 'date'},
+		  {name: 'lastuserupdateid_link', type: 'number'},
+		  {name: 'lasttimeupdate', type: 'date'}
+	 ]
+});
