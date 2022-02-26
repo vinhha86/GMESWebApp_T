@@ -169,7 +169,7 @@ Ext.define('GSmartApp.store.OrgStore', {
 				update : 'POST',
 				destroy: 'POST'
 			},
-			 url: config.getAppBaseUrl()+'/api/v1/org/getOrgByTypeId',
+			url: config.getAppBaseUrl()+'/api/v1/org/getOrgByTypeId',
 			paramsAsJson:true,
 			noCache: false,
 			headers :{

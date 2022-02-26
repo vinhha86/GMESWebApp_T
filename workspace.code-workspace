@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\Hoc Tap\\Front end\\jQuery"
+		},
+		{
+			"path": "..\\..\\..\\Hoc Tap\\Front end\\Webshop"
+		},
+		{
+			"path": "..\\..\\..\\Hoc Tap\\Front end\\JS cơ bản"
+		},
+		{
+			"path": "..\\..\\..\\Hoc Tap\\Thuctap\\GMESWebApp_T"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Webshop"
+	}
+}
