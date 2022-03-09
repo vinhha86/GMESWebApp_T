@@ -1,10 +1,10 @@
-Ext.define('GSmartApp.view.vendor.VendorDetailView', {
+Ext.define('GSmartApp.view.giatla.giatlaDetailView', {
     extend: 'Ext.form.Panel',
-    xtype: 'VendorDetailView', 
-    id:'VendorDetailView',
-    controller: 'VendorDetailViewController',
+    xtype: 'GiatLaDetailView', 
+    id:'GiatLaDetailView',
+    controller: 'giatLaDetailViewController',
     viewModel:{
-        type:'VendorViewModel'
+        type:'giatLaViewModel'
     },
     layout: 'vbox',
     bind:{

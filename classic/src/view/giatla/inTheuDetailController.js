@@ -1,6 +1,6 @@
-Ext.define('GSmartApp.view.giatla.VendorDetailViewController', {
+Ext.define('GSmartApp.view.giatla.giatLaDetailViewController', {
     extend: 'Ext.app.ViewController',
-    alias: 'controller.VendorDetailViewController',
+    alias: 'controller.giatLaDetailViewController',
     Id: 0,
     init: function () {
         var me = this.getView();
@@ -27,7 +27,7 @@ Ext.define('GSmartApp.view.giatla.VendorDetailViewController', {
         }
     },
     onLuu: function (thisBtn) {
-        var viewMain = Ext.getCmp('VendorView');
+        var viewMain = Ext.getCmp('lsgiatla');
         var m = this;
         var me = this.getView();
         me.setLoading("Đang lưu dữ liệu");
@@ -38,7 +38,7 @@ Ext.define('GSmartApp.view.giatla.VendorDetailViewController', {
         var data = new Object();
         data = viewModel.get('currentRec');
         data.id = this.Id;
-        data.orgtypeid_link = 11;
+        data.orgtypeid_link = 23;
         data.status = 1;
 
         params.data = data;
@@ -60,14 +60,14 @@ Ext.define('GSmartApp.view.giatla.VendorDetailViewController', {
                         });
 
                         if (data.id == 0) {
-                            if(viewMain)
-                            viewMain.getStore().load();
+                            if (viewMain)
+                                viewMain.getStore().load();
                         }
-                        if(thisBtn.itemId=='btnLuu')
+                        if (thisBtn.itemId == 'btnLuu')
                             me.Id = response.id;
-                        if(thisBtn.itemId=='btnLuuVaTaoMoi')
+                        if (thisBtn.itemId == 'btnLuuVaTaoMoi')
                             me.Id = 0;
-                        m.redirectTo("lsvendor/" + me.Id + "/edit");
+                        m.redirectTo("lsgiatla/" + me.Id + "/edit");
                     }
                     else {
                         Ext.Msg.show({
@@ -93,13 +93,14 @@ Ext.define('GSmartApp.view.giatla.VendorDetailViewController', {
                 }
                 me.setLoading(false);
             })
-    },Luu:function(thisBtn){
+    }, 
+    Luu: function (thisBtn) {
         // Thông tin Tên hoặc Tên tắt bị trùng, Có tiếp tục lưu không?
         var m = this;
         var me = this.getView();
         var code = me.down('#code').getValue();
         var name = me.down('#name').getValue();
-        if(code == name){
+        if (code == name) {
             Ext.Msg.show({
                 title: 'Thông báo',
                 msg: 'Thông tin Tên và Tên tắt bị trùng, Có tiếp tục lưu không?',
@@ -112,23 +113,23 @@ Ext.define('GSmartApp.view.giatla.VendorDetailViewController', {
                 fn: function (btn) {
                     if (btn === 'no') {
                         me.down('#code').focus();
-                    }else{
+                    } else {
                         m.onLuu(thisBtn);
                     }
                 }
             });
-        }else{
+        } else {
             m.onLuu(thisBtn);
         }
     },
     onQuayLai: function () {
         var me = this.getView();
         //me.getForm().reset();
-        this.redirectTo('lsvendor');
+        this.redirectTo('lsgiatla');
     },
     onLoadData: function (id, type) {
         var me = this;
-        var viewMain = Ext.getCmp('VendorView');
+        var viewMain = Ext.getCmp('lsgiatla');
         var viewmodel = me.getViewModel();
         viewmodel.set('id', id);
         if (id == 0) {
@@ -136,19 +137,19 @@ Ext.define('GSmartApp.view.giatla.VendorDetailViewController', {
             me.getView().getForm().reset();
         }
         else {
-            if(viewMain){
+            if (viewMain) {
                 var data = viewMain.getStore().getById(id).data;
                 viewmodel.set('currentRec', data);
                 viewmodel.set('name', data.name);
             }
-            else{
+            else {
                 me.loadInfo(id, viewmodel);
             }
         }
 
         me.Id = id;
     },
-    loadInfo: function(id, viewmodel ){
+    loadInfo: function (id, viewmodel) {
         var params = new Object();
         params.id = id;
         GSmartApp.Ajax.post('/api/v1/org/getOrgById', Ext.JSON.encode(params),

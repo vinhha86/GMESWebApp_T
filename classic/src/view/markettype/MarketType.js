@@ -11,9 +11,12 @@ Ext.define('GSmartApp.view.markettype.MarketType', {
     //     mode: 'SINGLE'
     // },
     plugins: {
+        // cellediting: {
+        //     clicksToEdit: 1
+        // }
         cellediting: {
-            clicksToEdit: 1
-        }
+            clicksToEdit: 1 //
+        } 
     },
     reference: 'MarketType',
     viewConfig: {
@@ -47,7 +50,7 @@ Ext.define('GSmartApp.view.markettype.MarketType', {
         flex: 1,
         items: {
             xtype: 'textfield',
-            fieldStyle: "",
+            fieldStyle: 'color: red;',
             reference: 'marketTypeCodeFilter',
             width: '99%',
             flex: 1,
@@ -132,6 +135,37 @@ Ext.define('GSmartApp.view.markettype.MarketType', {
             blankText: 'Nhập tên thị trường để thêm mới'
         }]
     }],
+    // bbar: [
+    //     { 
+    //         xtype: 'button',
+    //         margin: 5,
+    //         text: 'Thêm mới',
+    //         width: 90,
+    //         itemId: 'btnThemMoi',
+    //         style: {
+    //             backgroundColor: 'blue'
+    //         }
+    //     },
+    //     {
+    //         xtype:'textfield',
+    //         itemId:'txtCode',
+    //         margin: 5,
+    //         // flex: 1,
+    //         width: 250,
+    //         allowBlank: true,
+    //         emptyText: 'Mã thị trường',
+    //         blankText: 'Nhập mã thị trường để thêm mới'
+    //     },
+    //     {
+    //         xtype: 'textfield',
+    //         itemId: 'txtName',
+    //         margin: 5,
+    //         width: 250,
+    //         allowBlank: false,
+    //         emptyText: 'Ten thi truong',
+    //         blankText: 'Nhap ten thi truong de them moi'
+    //     }
+    //   ],
     listeners:{
         rowclick: 'onRowClick',
         dblclick: 'onRowClick'
