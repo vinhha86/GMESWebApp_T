@@ -6,6 +6,7 @@ Ext.define('GSmartApp.view.markettype.MarketTypeController', {
         let store  =  viewmodel.getStore('MarketStore');
         store.loadStore(1);
         store.sort('name', 'ASC');
+    
     },
     control: {
         '#btnThemMoi': {
@@ -178,11 +179,13 @@ Ext.define('GSmartApp.view.markettype.MarketTypeController', {
 
         let data = new Object();
         data = viewModel.get('currentRec');
+        console.log(data.name);
+        console.log(newName);
         data.name=newName;
 
         let params = new Object();
         params.data = data;
-
+            
         me.setLoading("Đang lưu dữ liệu");
         this.ThemMoi_CapNhat(params);
 
@@ -205,7 +208,10 @@ Ext.define('GSmartApp.view.markettype.MarketTypeController', {
 
         let data = new Object();
         data = viewModel.get('currentRec');
+        console.log(data);
         data.code=newCode;
+        console.log(data);
+    
 
         let params = new Object();
         params.data = data;
@@ -217,7 +223,7 @@ Ext.define('GSmartApp.view.markettype.MarketTypeController', {
         // console.log(viewModel.get('currentRec').id);
     },
     onRowClick:function(row, record, element, rowIndex, e, eOpts){
-        // console.log(record); 
+        console.log(record); 
         let viewModel = this.getViewModel();
         viewModel.set('currentRec',record.data);
         viewModel.set('oldName',record.data.name);

@@ -119,6 +119,7 @@ Ext.define('GSmartApp.view.material.MaterialAttributeViewController', {
     },
     onThemMoiAtt: function(){
         var me = this.getView();
+        console.log(me.IdProduct);
         var viewModel = this.getViewModel();
         if(viewModel.get('product.id') ==0 ){
             Ext.Msg.show({

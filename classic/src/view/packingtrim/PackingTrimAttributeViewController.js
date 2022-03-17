@@ -94,6 +94,7 @@ Ext.define('GSmartApp.view.packingtrim.PackingTrimAttributeViewController', {
     },
     onitemdblclick : function(m, record, item, index, e, eOpts){
         var me = this.getView();
+        console.log(record.data);
         var form = Ext.create('Ext.window.Window', {
             height: 400,
             closable: true,

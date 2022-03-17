@@ -2,12 +2,16 @@ Ext.define('GSmartApp.store.ColorStore', {
     extend: 'Ext.data.Store',
     alias: 'store.ColorStore',
 	fields: [
-		{name: 'id', type: 'int'},
+		// {name: 'id', type: 'int'},
+		{name: 'id', type: 'string'},
 		{name: 'code', type: 'string'},
 		{name: 'rgbvalue',   type: 'string'},
 		{name: 'name',   type: 'string'},
 		{name: 'name_en',   type: 'string'}
 	],
+	getStoreId: function (params) {
+
+	},
 	loadStore:function(type){
 		var me=this;
 		var params = new Object();

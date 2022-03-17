@@ -40,6 +40,7 @@ Ext.define('GSmartApp.view.NCCprint.NCCprintDetailViewController', {
         data.id = this.Id;
         data.orgtypeid_link = 20;
         data.status = 1;
+        console.log(data);
 
         params.data = data;
         params.msgtype = "VENDOR_CREATE";
@@ -68,6 +69,16 @@ Ext.define('GSmartApp.view.NCCprint.NCCprintDetailViewController', {
                         if(thisBtn.itemId=='btnLuuVaTaoMoi')
                             me.Id = 0;
                         m.redirectTo("lsintheu/" + me.Id + "/edit");
+                    }
+                    else if(response.respcode == 0) {
+                        Ext.MessageBox.show({
+                            title: "Thông báo",
+                            msg: response.message,
+                            buttons: Ext.MessageBox.YES,
+                            buttonText: {
+                                yes: 'Đóng',
+                            },
+                        });
                     }
                     else {
                         Ext.Msg.show({

@@ -1,15 +1,15 @@
-Ext.define('GSmartApp.view.NCCprint.NCCprintDetailView', {
+Ext.define('GSmartApp.view.NCCprint.NCCprintDetailWindowView', {
     extend: 'Ext.form.Panel',
-    xtype: 'InTheuDetailView', // same with database, 'PortDetailView' shows error
-    id:'lsintheu',
-    controller: 'NCCprintDetailViewController',
+    xtype: 'InTheuDetailWindowView', // same with database, 'PortDetailView' shows error
+    id:'lsintheuWindow',
+    controller: 'NCCprintDetailWindowViewController',
     viewModel:{
         type:'NCCprintViewModel'
     },
     layout: 'vbox',
-    bind:{
-        title: '{title}'
-    },
+    // bind:{
+    //     store: '{OrgStore}'
+    // },
     items: [{
         xtype:'textfield',
         margin: 5,
@@ -150,12 +150,6 @@ Ext.define('GSmartApp.view.NCCprint.NCCprintDetailView', {
         dock:'bottom',
         items:[{
             xtype:'button',
-            text: 'Quay lại',
-            margin: 3,
-            itemId:'btnQuayLai',
-            iconCls: 'x-fa fa-backward'
-        },{
-            xtype:'button',
             text: 'Lưu',
             margin: 3,
             itemId:'btnLuu',
@@ -163,14 +157,14 @@ Ext.define('GSmartApp.view.NCCprint.NCCprintDetailView', {
             formBind: true
         },{
             xtype:'button',
-            text: 'Lưu và tạo mới',
+            text: 'Thoát',
             margin: 3,
-            itemId:'btnLuuVaTaoMoi',
-            iconCls: 'x-fa fa-save',
-            formBind: true
-        },{
-            flex:1,
-            border: false
+            itemId:'btnThoat',
+            iconCls: 'x-fa fa-window-close'
+        },
+        {
+            border: false,
+            flex : 1
         },]
     }]
 })

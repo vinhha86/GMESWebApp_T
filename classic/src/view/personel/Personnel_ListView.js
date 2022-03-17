@@ -280,7 +280,6 @@ Ext.define('GSmartApp.view.personel.Personnel_ListView', {
             itemId: 'splbtn_ThemCa',
             tooltip: 'Chọn ca làm việc mặc định',
         }
-
             , '->',
             {
                 xtype: 'combo',

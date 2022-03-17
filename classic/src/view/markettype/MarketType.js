@@ -118,7 +118,8 @@ Ext.define('GSmartApp.view.markettype.MarketType', {
             margin: 5,
             // flex: 1,
             width: 250,
-            allowBlank: true,
+            // allowBlank: true,
+            allowBlank: false,
             emptyText: 'Mã thị trường',
             blankText: 'Nhập mã thị trường để thêm mới'
         },{

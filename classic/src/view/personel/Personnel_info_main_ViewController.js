@@ -287,21 +287,6 @@ Ext.define('GSmartApp.view.personel.Personnel_info_main_ViewController', {
                             }
                         });
                     }
-                    else {
-                        Ext.MessageBox.show({
-                            title: "Thông báo",
-                            msg: response.message,
-                            buttons: Ext.MessageBox.YES,
-                            buttonText: {
-                                yes: 'Đóng',
-                            },
-                            fn: function () {
-                                var viewInfo = me.down('#Personnel_info');
-                                viewInfo.down('#code').focus();
-                            }
-                        });
-
-                    }
 
                 } else {
                     var response = Ext.decode(response.responseText);
